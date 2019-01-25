@@ -7,12 +7,11 @@ class Square extends Shape {
     }
 
     draw() {
-        context.fillStyle = this.color;
-        context.fillRect(this.x, this.y, this.width, this.height);
+        this.context.fillStyle = this.color;
+        this.context.fillRect(this.x, this.y, this.width, this.height);
     }
 
     moveTo(x, y) {
-
         this.x = x;
         this.y = y;
         this.refresh(); // istrinu visa langa

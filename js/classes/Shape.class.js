@@ -1,16 +1,14 @@
-var canvas = document.querySelector('#canvas'),
-    context = canvas.getContext('2d');
-
-class Shape {
+class Shape extends Canvas {
 
     constructor(x = 0, y = 0, color = 'red') {
+        super();
         this.x = x;
         this.y = y;
         this.color = color;
     }
 
     refresh() {
-        context.clearRect(0, 0, canvas.width, canvas.height);
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
     }
 
     getPosition() {
