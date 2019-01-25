@@ -1,7 +1,7 @@
-var canvas = document.querySelector('#canvas'),
+export var canvas = document.querySelector('#canvas'),
     context = canvas.getContext('2d');
 
-class Shape {
+export class Shape {
 
     constructor(x = 0, y = 0, color = 'red') {
         this.x = x;

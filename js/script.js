@@ -1,3 +1,7 @@
+import { Rectangle } from "./classes/Rectangle.class.js";
+import { Shape } from "./classes/Shape.class.js";
+import { Square } from "./classes/Square.class.js";
+
 function getRandom(min, max) {
     return Math.round(Math.random() * (max - min) + min);
 }

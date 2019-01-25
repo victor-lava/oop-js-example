@@ -1,4 +1,5 @@
-class Rectangle extends Square {
+import { Square } from "../classes/Square.class.js";
+export class Rectangle extends Square {
 
     constructor(options) {
         super(options);

@@ -1,4 +1,5 @@
-class Square extends Shape {
+import * from "../classes/Shape.class.js";
+export class Square extends Shape {
 
     constructor(options) {
         super(options.x, options.y, options.color);
